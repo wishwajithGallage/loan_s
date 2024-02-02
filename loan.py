@@ -7,7 +7,7 @@ import streamlit as st
 
 # loading the saved models
 
-credit_model = pickle.load(open('E:\ml projects\Classification Machine Learning Projects 6\Loan Status Prediction using Machine Learning with Python\web\loan_model.sav', 'rb'))
+credit_model = pickle.load(open('loan_model.sav', 'rb'))
 
 
 
